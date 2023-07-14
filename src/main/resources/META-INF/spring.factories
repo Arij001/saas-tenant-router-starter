@@ -1,0 +1,7 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.huawei.saas.config.TenantAutoConfiguration
+com.huawei.saas.dbpool.JdbcPool=\
+com.huawei.saas.dbpool.druid.DruidPool,\
+com.huawei.saas.dbpool.hikari.HikariCpPool
+com.huawei.saas.config.balancestrategy.LoadBalanceStrategy=
+com.huawei.saas.customedprocessor.AbstractDataSourceProcessor=
+com.huawei.saas.customedprocessor.PoolRefreshProcessor=
